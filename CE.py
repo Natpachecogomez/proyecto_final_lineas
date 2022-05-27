@@ -5,7 +5,7 @@ confele=[("1S",2),("2S",2),("2P",6),("3S",2),("3P",6),("4S",2),("3D",10),("4P",6
 e=0
 inicio=input("Para ingresar un elemento escriba e, para números cuánticos nc: ")
 if inicio!="e" and inicio!="nc":
-    input("Escriba e o nc: ")
+    inicio=input("Escriba e o nc: ")
 
 #PROGRAMA PARA CUANDO INGRESA UN ELEMENTO
 if inicio==e:
@@ -151,4 +151,5 @@ if inicio=="nc":
 
     #Encotrar z
     z=sum+e
-    print(z)
+    import Dc_proyecto as dic
+    print (dic[1])
