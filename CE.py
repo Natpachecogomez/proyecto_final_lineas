@@ -151,5 +151,8 @@ if inicio=="nc":
 
     #Encotrar z
     z=sum+e
-    import Dc_proyecto as dic
-    print (dic[1])
+import Dc_proyecto 
+diccionario=Dc_proyecto.Tablaperiodica
+for i in diccionario:
+    if z==i:
+        print (diccionario)
