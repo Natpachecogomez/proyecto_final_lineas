@@ -1,4 +1,4 @@
-lista=["1S2","2S2","2P6","3S2","3P6","4S2","3D10","4P6","5S2","4D10","5P6","6S2","4F14","5D10","6P6","7S2","5F14","6D10","7P6"]
+confele=[("1S",2),("2S",2),"2P6","3S2","3P6","4S2","3D10","4P6","5S2","4D10","5P6","6S2","4F14","5D10","6P6","7S2","5F14","6D10","7P6"]
 
 #Pedir datos
 n=int(input("Ingrese valor de n: "))
@@ -131,3 +131,9 @@ if l=="F" and m==3:
     else:
         e=16   
 
+sum=0
+for i in confele:
+    sum=int(i[2])+sum
+    if i[0]==str(n) and i[1]==l:
+        pass
+print(sum)
