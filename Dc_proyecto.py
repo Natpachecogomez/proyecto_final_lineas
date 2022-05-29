@@ -400,4 +400,3 @@ Tablaperiodica={
         "Periodo": "7",
         "Configuración electrónica": "5f14,6d10,7s2,7p6"},
         }
-print(Tablaperiodica)
