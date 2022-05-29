@@ -154,5 +154,4 @@ if inicio=="nc":
 import Dc_proyecto 
 diccionario=Dc_proyecto.Tablaperiodica
 for i in diccionario:
-    if z==i:
-        print (diccionario[i])
+    print(i)

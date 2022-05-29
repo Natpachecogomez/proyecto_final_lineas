@@ -968,4 +968,3 @@ Tablaperiodica={
         "Periodo": "",
         "Configuración electrónica": ""},
         }
-print(Tablaperiodica)
