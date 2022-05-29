@@ -12,11 +12,17 @@ if inicio!="e" and inicio!="nc":
     inicio=input("Escriba e o nc: ")
 
 #PROGRAMA PARA CUANDO INGRESA UN ELEMENTO
-if inicio==e:
+if inicio=="e":
     ele=input("Ingrese nombre o símbolo del elemento: ")
     for i in diccionario:
         if ele==diccionario[i]["Nombre"] or ele==diccionario[i]["Símbolo"]:
-            print(diccionario[i])
+            print("Símbolo:", diccionario[i]["Símbolo"])
+            print("Nombre:",diccionario[i]["Nombre"])
+            print("Número atómico:",diccionario[i]["Número atómico"])
+            print("Peso atómico:",diccionario[i]["Peso atómico"])
+            print("Grupo:",diccionario[i]["Grupo"])
+            print("Periodo:",diccionario[i]["Periodo"])
+            print("Configuración electrónica:",diccionario[i]["Configuración electrónica"])
 
 #PROGRAMA PARA CUANDO INGRESA NÚMEROS CUÁNTICOS
 if inicio=="nc":
