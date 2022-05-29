@@ -1,3 +1,7 @@
+#Importar diccionario tabla periódica
+import Dc_proyecto 
+diccionario=Dc_proyecto.Tablaperiodica
+
 #Lista configuración electrónica
 confele=[("1S",2),("2S",2),("2P",6),("3S",2),("3P",6),("4S",2),("3D",10),("4P",6),("5S",2),("4D",10),("5P",6),("6S",2),("4F",14),("5D",10),("6P",6),("7S",2),("5F",14),("6D",10),("7P",6),("6F",14),("7D",10),("7F",14)]
 
@@ -9,7 +13,10 @@ if inicio!="e" and inicio!="nc":
 
 #PROGRAMA PARA CUANDO INGRESA UN ELEMENTO
 if inicio==e:
-    algodiccionario=""
+    ele=input("Ingrese nombre o símbolo del elemento: ")
+    for i in diccionario:
+        if ele==diccionario[i]["Nombre"] or ele==diccionario[i]["Símbolo"]:
+            print(diccionario[i])
 
 #PROGRAMA PARA CUANDO INGRESA NÚMEROS CUÁNTICOS
 if inicio=="nc":
@@ -151,7 +158,9 @@ if inicio=="nc":
 
     #Encotrar z
     z=sum+e
-import Dc_proyecto 
-diccionario=Dc_proyecto.Tablaperiodica
-for i in diccionario:
-    print(i)
+    print(z)
+    
+    #Encontrar elemento con z de número atómico e imprimir toda su info
+    for i in diccionario:
+        if i==z:
+            print("Hola")
