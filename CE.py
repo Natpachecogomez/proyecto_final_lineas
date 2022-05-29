@@ -162,5 +162,11 @@ if inicio=="nc":
     
     #Encontrar elemento con z de número atómico e imprimir toda su info
     for i in diccionario:
-        if i==z:
-            print("Hola")
+        if int(i)==z:
+            print("Símbolo:", diccionario[i]["Símbolo"])
+            print("Nombre:",diccionario[i]["Nombre"])
+            print("Número atómico:",diccionario[i]["Número atómico"])
+            print("Peso atómico:",diccionario[i]["Peso atómico"])
+            print("Grupo:",diccionario[i]["Grupo"])
+            print("Periodo:",diccionario[i]["Periodo"])
+            print("Configuración electrónica:",diccionario[i]["Configuración electrónica"])
