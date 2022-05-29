@@ -164,7 +164,6 @@ if inicio=="nc":
 
     #Encotrar z
     z=sum+e
-    print(z)
     
     #Encontrar elemento con z de número atómico e imprimir toda su info
     for i in diccionario:
