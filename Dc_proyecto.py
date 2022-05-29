@@ -239,7 +239,7 @@ Tablaperiodica={
         "Grupo": "12",
         "Periodo": "4",
         "Configuración electrónica": "1s2 2s2 2p6 3s2 3p6 4s2 3d10"},
-   "31":{
+    "31":{
         "Símbolo": "Ga",
         "Nombre": "Galio",
         "Número atómico": "31",
@@ -383,7 +383,7 @@ Tablaperiodica={
         "Grupo": "12",
         "Periodo": "5",
         "Configuración electrónica": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10"},
-  "49":{
+    "49":{
         "Símbolo": "In",
         "Nombre": "Indio",
         "Número atómico": "49",
