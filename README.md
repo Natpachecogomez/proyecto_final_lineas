@@ -2,20 +2,7 @@
 **NUMEROS CUANTICOS Y CONFIGURACIÓN ELECTRONICA**
 
 
-*Numeros Cuanticos*
-
-Los números cuánticos se denominan con las letras n, m, l y s y nos indican la posición y la energía del electrón. Ningún electrón de un mismo átomo puede tener los mismos números cuánticos.
-
-El significado de los números cuánticos es:
-
-n = número cuántico principal, que indica el nivel de energía donde se encuentra el electrón, asume valores enteros positivos, del 1 al 7.
-
-l = número cuántico secundario, que indica el orbital en el que se encuentra el electrón, puede ser s, p, d y f (0, 1, 2 y 3).
-
-m = número cuántico magnético, representa la orientación de los orbitales en el espacio, o el tipo de orbital, dentro de un orbital especifico. Asume valores del número cuántico secundario negativo (-l) pasando por cero, hasta el número cuántico positivo (+l).
-
-s = número cuántico de spin, que describe la orientación del giro del electrón. Este número tiene en cuenta la rotación del electrón alrededor de su propio eje a medida que se mueve rodeando al núcleo. Asume únicamente dos valores +1/2 y -
-*Configuración Electronica*
+**Configuración Electronica**
 
 Una configuración electrónica es una configuración que muestra cómo los electrones en un mismo átomo están organizados, conectados u organizados según el modelo de capa electrónica, y las funciones de onda del sistema se representan en un átomo o de forma atómica en un producto. de orbitales asimétricos. Especifica las propiedades de las combinaciones químicas de los átomos y por ende su posición en la tabla periódica de los elementos, y la idea es describir las posiciones de todos los electrones en diferentes grados de ellos.
 
