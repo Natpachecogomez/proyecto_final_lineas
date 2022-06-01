@@ -1,5 +1,13 @@
 # proyecto_final_lineas
-**NUMEROS CUANTOS Y CONFIGURACIÓN ELECTRONICA**
+**NUMEROS CUANTICOS Y CONFIGURACIÓN ELECTRONICA**
+
+
+*Numeros Cuanticos*
+
+*Configuración Electronica*
+Una configuración electrónica es una configuración que muestra cómo los electrones en un mismo átomo están organizados, conectados u organizados según el modelo de capa electrónica, y las funciones de onda del sistema se representan en un átomo o de forma atómica en un producto. de orbitales asimétricos. Especifica las propiedades de las combinaciones químicas de los átomos y por ende su posición en la tabla periódica de los elementos, y la idea es describir las posiciones de todos los electrones en diferentes grados de ellos.
+
+
 
 Este algoritmo tiene como objetivo encontrar un elemento junto con sus características a partir de los números cuánticos. Cuando ejecute el programa, se escribe "nc" para que el programa identifique que va a ingresar números cuánticos (n, l, m, s), cuando el programa tenga estas entradas, procederá a calcular z, el cual es el número del elemento y con esto el programa busca en el diccionario y trae la información del elemento.                                                                          
 
