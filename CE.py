@@ -122,37 +122,37 @@ if inicio=="nc":
         if s=="+":
             e=1
         else:
-            e=10
+            e=8
     if l=="F" and m==-2:
         if s=="+":
             e=2
         else:
-            e=11
+            e=9
     if l=="F" and m==-1:
         if s=="+":
             e=3
         else:
-            e=12
+            e=10
     if l=="F" and m==0:
         if s=="+":
             e=4
         else:
-            e=13
+            e=11
     if l=="F" and m==1:
         if s=="+":
             e=5
         else:
-            e=14
+            e=12
     if l=="F" and m==2:
         if s=="+":
             e=6
         else:
-            e=15
+            e=13
     if l=="F" and m==3:
         if s=="+":
             e=7
         else:
-            e=16   
+            e=14   
 
     #Suma exponentes anteriores al que cambia
     sum=0
